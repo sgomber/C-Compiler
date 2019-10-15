@@ -1,0 +1,36 @@
+1: func begin incr
+2: t0 = g_0_global
+3: t1 = n_1_incr_0
+4: t2 = t0 + t1
+5: g_0_global = t2
+6: func end
+7: func begin decr
+8: t0 = g_0_global
+9: t1 = f_1_decr_0
+10: t2 = t0 - t1
+11: g_0_global = t2
+12: func end
+13: func begin main
+14: t0 = 1
+15: g_0_global = t0
+16: t0 = 2
+17: param t0
+18: call incr,2
+19: t0 = 3
+20: param t0
+21: call incr,2
+22: t0 = 3
+23: param t0
+24: call incr,2
+25: t0 = 3
+26: param t0
+27: call incr,2
+28: t0 = -1
+29: param t0
+30: call decr,2
+31: t0 = 13
+32: param t0
+33: call decr,2
+34: t0 = g_0_global
+35: print(t0)
+36: func end

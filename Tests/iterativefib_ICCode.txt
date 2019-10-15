@@ -1,0 +1,86 @@
+1: func begin main
+2: t0 = 0
+3: Load t1 arr_2_main
+4: t2 = 0
+5: t3 = 1
+6: t3 = t3 * t0
+7: t2 = t2 + t3
+8: t3 = 4
+9: t2 = t2 * t3
+10: t0 = 1
+11: t1[t2] = t0
+12: t0 = 1
+13: Load t1 arr_2_main
+14: t2 = 0
+15: t3 = 1
+16: t3 = t3 * t0
+17: t2 = t2 + t3
+18: t3 = 4
+19: t2 = t2 * t3
+20: t0 = 1
+21: t1[t2] = t0
+22: t0 = 2
+23: i_2_main = t0
+24: t0 = i_2_main
+25: t1 = 20
+26: t2 = 1
+27: if(t0 < t1) goto 29
+28: t2 = 0
+29: if(t2 == 0) goto 86   
+30: goto 36   
+31: t0 = i_2_main
+32: t1 = 1
+33: t2 = t0 + t1
+34: i_2_main = t2
+35: goto 24
+36: t0 = i_2_main
+37: Load t1 arr_2_main
+38: t2 = 0
+39: t3 = 1
+40: t3 = t3 * t0
+41: t2 = t2 + t3
+42: t3 = 4
+43: t2 = t2 * t3
+44: t0 = i_2_main
+45: t3 = 1
+46: t4 = t0 - t3
+47: Load t0 arr_2_main
+48: t3 = 0
+49: t5 = 1
+50: t5 = t5 * t4
+51: t3 = t3 + t5
+52: t5 = 4
+53: t3 = t3 * t5
+54: t4 = t0[t3]
+55: t0 = i_2_main
+56: t3 = 2
+57: t5 = t0 - t3
+58: Load t0 arr_2_main
+59: t3 = 0
+60: t6 = 1
+61: t6 = t6 * t5
+62: t3 = t3 + t6
+63: t6 = 4
+64: t3 = t3 * t6
+65: t5 = t0[t3]
+66: t0 = t4 + t5
+67: t1[t2] = t0
+68: t0 = i_2_main
+69: t1 = 5
+70: t2 = 1
+71: if(t0 == t1) goto 73
+72: t2 = 0
+73: if(t2 == 0) goto 75   
+74: goto 86   
+75: t0 = i_2_main
+76: Load t1 arr_2_main
+77: t2 = 0
+78: t3 = 1
+79: t3 = t3 * t0
+80: t2 = t2 + t3
+81: t3 = 4
+82: t2 = t2 * t3
+83: t0 = t1[t2]
+84: print(t0)
+85: goto 31   
+86: func end

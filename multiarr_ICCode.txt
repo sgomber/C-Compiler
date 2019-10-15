@@ -1,0 +1,136 @@
+1: func begin main
+2: t0 = 0
+3: i_2_main = t0
+4: t0 = i_2_main
+5: t1 = 3
+6: t2 = 1
+7: if(t0 < t1) goto 9
+8: t2 = 0
+9: if(t2 == 0) goto 73   
+10: goto 16   
+11: t0 = i_2_main
+12: t1 = 1
+13: t2 = t0 + t1
+14: i_2_main = t2
+15: goto 4
+16: t0 = 0
+17: j_2_main = t0
+18: t0 = j_2_main
+19: t1 = 4
+20: t2 = 1
+21: if(t0 < t1) goto 23
+22: t2 = 0
+23: if(t2 == 0) goto 11   
+24: goto 30   
+25: t0 = j_2_main
+26: t1 = 1
+27: t2 = t0 + t1
+28: j_2_main = t2
+29: goto 18
+30: t0 = 0
+31: k_2_main = t0
+32: t0 = k_2_main
+33: t1 = 5
+34: t2 = 1
+35: if(t0 < t1) goto 37
+36: t2 = 0
+37: if(t2 == 0) goto 25   
+38: goto 44   
+39: t0 = k_2_main
+40: t1 = 1
+41: t2 = t0 + t1
+42: k_2_main = t2
+43: goto 32
+44: t0 = i_2_main
+45: t1 = j_2_main
+46: t2 = k_2_main
+47: Load t3 arr_2_main
+48: t4 = 0
+49: t5 = 20
+50: t5 = t5 * t0
+51: t4 = t4 + t5
+52: t5 = 5
+53: t5 = t5 * t1
+54: t4 = t4 + t5
+55: t5 = 1
+56: t5 = t5 * t2
+57: t4 = t4 + t5
+58: t5 = 4
+59: t4 = t4 * t5
+60: t0 = 100
+61: t1 = i_2_main
+62: t2 = t0 * t1
+63: t0 = 10
+64: t1 = j_2_main
+65: t5 = t0 * t1
+66: t0 = t2 + t5
+67: t1 = k_2_main
+68: t2 = t0 + t1
+69: t3[t4] = t2
+70: goto 39   
+71: goto 25   
+72: goto 11   
+73: t0 = 0
+74: i_2_main = t0
+75: t0 = i_2_main
+76: t1 = 3
+77: t2 = 1
+78: if(t0 < t1) goto 80
+79: t2 = 0
+80: if(t2 == 0) goto 136  
+81: goto 87   
+82: t0 = i_2_main
+83: t1 = 1
+84: t2 = t0 + t1
+85: i_2_main = t2
+86: goto 75
+87: t0 = 0
+88: j_2_main = t0
+89: t0 = j_2_main
+90: t1 = 4
+91: t2 = 1
+92: if(t0 < t1) goto 94
+93: t2 = 0
+94: if(t2 == 0) goto 82   
+95: goto 101  
+96: t0 = j_2_main
+97: t1 = 1
+98: t2 = t0 + t1
+99: j_2_main = t2
+100: goto 89
+101: t0 = 0
+102: k_2_main = t0
+103: t0 = k_2_main
+104: t1 = 5
+105: t2 = 1
+106: if(t0 < t1) goto 108
+107: t2 = 0
+108: if(t2 == 0) goto 96   
+109: goto 115  
+110: t0 = k_2_main
+111: t1 = 1
+112: t2 = t0 + t1
+113: k_2_main = t2
+114: goto 103
+115: t0 = i_2_main
+116: t1 = j_2_main
+117: t2 = k_2_main
+118: Load t3 arr_2_main
+119: t4 = 0
+120: t5 = 20
+121: t5 = t5 * t0
+122: t4 = t4 + t5
+123: t5 = 5
+124: t5 = t5 * t1
+125: t4 = t4 + t5
+126: t5 = 1
+127: t5 = t5 * t2
+128: t4 = t4 + t5
+129: t5 = 4
+130: t4 = t4 * t5
+131: t0 = t3[t4]
+132: print(t0)
+133: goto 110  
+134: goto 96   
+135: goto 82   
+136: func end

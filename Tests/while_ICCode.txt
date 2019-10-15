@@ -1,0 +1,13 @@
+1: func begin main
+2: t0 = 10
+3: x_2_main = t0
+4: t0 = x_2_main
+5: if(t0 == 0) goto 13   
+6: t0 = x_2_main
+7: print(t0)
+8: t0 = x_2_main
+9: t1 = 1
+10: t2 = t0 - t1
+11: x_2_main = t2
+12: goto 4
+13: func end
